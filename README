@@ -1,0 +1,74 @@
+
+ WHAT IS THIS?
+ =============
+ This is "PodUsage": a Perl5 function to print usage messages for
+ a Perl script based on its embedded pod documentation.
+
+ PLEASE NOTE THAT THIS IS AN INITIAL RELEASE FOR THE PURPOSE OF
+ GATHERING COMMENTS AND SUGGESTIONS AND MAY CHANGE IN INCOMPATIBLE
+ WAYS IN FUTURE RELEASES!!!
+
+
+ AUTHORS/CONTRIBUTORS
+ ====================
+ Brad Appleton  <Brad_Appleton-GBDA001@email.mot.com>
+
+
+ COPY/REUSE POLICY
+ =================
+ Copyright (C) 1996 Brad Appleton. All rights reserved.
+
+ This program is free software; you can redistribute it and/or
+ modify it under the same terms as Perl itself. Please refer to
+ the license agreement that came with your Perl distribution for
+ more details.
+
+
+ DISCLAIMER
+ ==========
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  In no event
+ will any copyright holder or distirbutor of the software be liable
+ to you for any kind of damages. Please refer to the license agreement
+ that came with your Perl distribution for more details.
+
+
+ CONTENTS
+ ========
+ README -- this file
+ Makefile.PL -- Perl Makefile template
+ Usage.pm -- The Pod::Usage module source containing pod2usage()
+
+
+ REQUIREMENTS
+ ============
+ * Perl version 5.002 or later
+
+ * Pod::Filter version 0.01 or later
+
+ * Pod::PlainText version 0.01 or later
+
+
+ BUILDING & INSTALLING
+ =====================
+ Please see the perl "ExtUtils::MakeMaker" manpage for how to build and
+ install using the Makefile.PL template. In a nutshell, simply typing:
+
+      perl Makefile.PL
+
+ should build a Makefile with the usual targets like "all", "clean",
+ "test", and "install".
+
+ BUGS
+ ====
+ Please send all bug reports to Brad Appleton
+ <Brad_Appleton-GBDA001@email.mot.com>.
+
+
+ HISTORY
+ =======
+ 07-Aug-1996           Brad Appleton     <Brad_Appleton-GDBA001@email.mot.com>
+ -----------------------------------------------------------------------------
+ Initial release of version 0.01 to garner some feedback.
+
